@@ -1,3 +1,133 @@
+body {
+	font-family: Inter, sans-serif;
+	margin: 0;
+	box-sizng:border-box;
+	overflow-x:hidden;
+	overflow-y:srcoll;
+}
+nav {
+	padding: 21px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	position: fixed;
+	top:0;
+	background:white;
+	color:black;
+	z-index: 10;
+}
+a {
+	margin-bottom: 4px;
+	text-decoration:none;
+}
+header {
+	display: flex;
+	flex-direction:column;
+}
+header a {
+	color:black;
+	margin-right: 21px;
+	letter-spacing:1px;
+	font-weight:400;
+}
+a:hover {
+	animation-name: example;
+  animation-duration: 1s;
+  color:rgb(30,30,30);
+}
+@keyframes example {
+  0% {transform:translateY(0px);}
+  100% {transform:translateY(-3px);}
+}
+main {
+	margin-top: 50px;
+}
+h1,h2,h3 {
+	text-align: center;
+	font-weight: 400;
+}
 h1 {
-    color: green;
+	margin: 200px 0 0 220px;
+	font-weight: 500;
+	font-size: 45px;
+}
+h2 {
+	font-size: 30px;
+	padding-top: 80px;
+	margin: 0 0 60px;
+}
+h3 {
+	color:#79a14e;
+	font-style: normal;
+	text-align: left;
+	margin: 0;
+}
+.fish {
+	margin: 0 30px;
+}
+.fish h3 {
+	font-size: 30px;
+}
+.milk h3, .vegetables-fruits h3 {
+	font-size: 36px;
+}
+p {
+	text-align: justify;
+	font-size: 23px;
+	line-height: 33px;
+	font-weight: 300;
+}
+.recomentation p {
+	font-size: 20px;
+		text-align: left;
+}
+article {
+	margin: 0 10%;
+}
+.bg-yellow {
+	background: rgba(245, 250, 239, 0.85);
+	font-style: italic;
+	width: 30%;
+	padding: 40px 20px;
+	margin-top: -50px;
+}
+.recomendation img {
+	margin: -4px 0;	
+	width: 100%;
+	height: 600px;
+}
+.recomendation__content {
+	display: flex;
+	justify-content: space-between;
+}
+.examples {
+	display: flex;
+}
+#examples {
+	padding: 0;
+	margin: 0 10%;
+	font-size: 50px;
+}
+.bg-examples {
+	padding: 50px 40px;
+	margin: 0 20%;
+	background:rgba(215, 235, 193, 0.45);
+}
+.left-block {
+	margin-right: 20px;
+}
+.right-block {
+	margin-left: 20px;
+}
+.introduction {
+	display: flex;
+	justify-content: space-evenly;
+}
+main img {
+	width: 70%;
+}
+.recomendation__content img {
+	height: 77px;
+	width: 87px;
+	margin-bottom: 30px;
 }
